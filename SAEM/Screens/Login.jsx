@@ -31,9 +31,9 @@ Login = () => {
                 <View style={styles.rowscont}>
                 <Image style={styles.img2}
                  source={require('../assets/Images/prueba.jpg')}/>
-                <Text style={styles.texto}>10 Post</Text>
-                <Text style={styles.texto}>10 Followers</Text>
-                <Text style={styles.texto}>50  Following</Text>
+                <Text style={styles.texto}>10 Posteos</Text>
+                <Text style={styles.texto}>10 Seguidores</Text>
+                <Text style={styles.texto}>50  Seguidos</Text>
                 </View>
                 <View style={styles.cont2}>
                 <Text style={styles.texto}>JuanRiveraMaya</Text> 
@@ -103,13 +103,8 @@ const styles = StyleSheet.create({
 
 texto: {
     fontSize: 15,
-    margin: 20,
+    margin: 15,
     color: 'white',
-}, letraicon: {
-    height: 50,
-    width: 120,
-    margin: 5,
-    resizeMode: 'contain'
 },
 rowscont:{
     flexDirection: 'row',
@@ -117,16 +112,17 @@ rowscont:{
 
     alignItems: 'center', 
     backgroundColor: '#000000',
-    padding: 10,
-    marginTop: 20
+    padding: 15,
+    marginTop: 15
 },
 
 cont2:{
+   padding: 15,
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center', 
     backgroundColor: '#000000',
-    padding: 10,
+   
 },
 
 img2: {
@@ -137,7 +133,7 @@ img2: {
 },
 
 list: {
-  marginLeft:20
+  marginLeft:10
 },
 
 });
