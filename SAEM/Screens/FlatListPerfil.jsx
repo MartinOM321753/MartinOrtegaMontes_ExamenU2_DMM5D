@@ -17,7 +17,7 @@ FlatListPerfil = (props) => {
         <View style={styles.list}>
             <View style={styles.contimgperf}>
 
-                <Image style={styles.img} source={require('../assets/Images/Login.png')} />
+                <Image style={styles.img} source={require('../assets/Images/prueba.jpg')} />
                 <Text style={styles.txtname}>{nombre}</Text>
 
             </View>
